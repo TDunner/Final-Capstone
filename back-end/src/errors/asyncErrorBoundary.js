@@ -9,7 +9,7 @@ function asyncErrorBoundary(delegate, defaultStatus) {
           message,
         });
       });
-  };
+   };
 }
 
 module.exports = asyncErrorBoundary;
